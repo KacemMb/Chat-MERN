@@ -1,0 +1,30 @@
+.Message {
+    display: flex;
+    align-items: center;
+}
+.Message img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.Message p{
+    padding: 10px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-size: 1.1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.right{
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+
+}
+.left{
+    justify-content: flex-start;
+}
+.left p{
+    background-color: var(--message-color-1);
+}
+.right p{
+    background-color: var(--message-color-2);
+}

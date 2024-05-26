@@ -1,0 +1,76 @@
+.Signup{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--main-color);
+    opacity: 0.85;
+    padding: 15px 25px;
+    margin: auto;
+    border-radius: 10px;
+    width: 32%;
+
+}
+
+.user-name{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.short-input{
+    width: 48%;
+}
+
+.long-input{
+    width: 100%;
+}
+.user-gender select{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--dark-color);
+    color: white;
+    font-size: 1.2rem;
+    outline : none;
+    margin: 10px 0;
+}
+.user-gender select option{
+    background-color: var(--dark-color);
+    color: white;
+    font-size: 1.2rem;
+}
+.signup-btn{
+    background-color: var(--light-color);
+    color: white;
+    padding: 10px;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    margin: 10px 0;
+    cursor: pointer;
+    outline: none;
+    width: 100%;
+}
+
+.submit-btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.signup-btn:hover{
+    background-color: var(--blue-color);
+}
+
+.log-p{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.log-l{
+    color: var(--light-color);
+    cursor: pointer;
+    text-decoration: none;
+}
+.log-l:hover{
+    color: var(--blue-color);
+    text-decoration: underline;
+}

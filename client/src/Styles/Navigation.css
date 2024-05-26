@@ -1,0 +1,115 @@
+.Navigation{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--main-color);
+    width: 25%;
+    opacity: 0.85;
+    border-radius: 20px;
+}
+
+/* Search */
+.Search{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 15px;
+}
+.Search input{
+    width: 80%;
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: var(--dark-color);
+    font-size: 1.3em;
+    color: white;
+    height: 40px;
+}
+.Search input:focus{
+    background-color: var(--super-dark-color);
+    box-shadow: 0 0 8px var(--light-color);
+}
+
+.Search input::placeholder{
+    color: white;
+}
+.Search button{
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: var(--dark-color);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    height: 40px;
+    width: 40px;
+}
+.Search button img{
+    width: 28px;
+}
+.Search button:hover{
+    background-color: var(--super-dark-color);
+}
+/* end Search */
+
+/* Navigation Items */
+.FriendList {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    height: 100%;
+    scrollbar-width: thin;
+    scrollbar-color: var(--dark-color) var(--main-color);
+}
+.Friend {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Friend img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.Friend h3{
+    font-size: 1.3em;
+    color: white;
+}
+.Friend p{
+    font-size: 1em;
+    color: white;
+}
+.Friend:hover{
+    background-color: var(--super-dark-color);
+}
+
+/* end Navigation Items */
+
+
+.UserProfile{
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-top: 2px solid var(--dark-color);
+    cursor: pointer;
+}
+.UserProfile h3{
+    font-size: 1.3em;
+    color: white;
+    margin-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.UserProfile:hover{
+    background-color: var(--super-dark-color);
+    border-radius: 0 0 20px 20px ;
+}
+.UserProfile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
